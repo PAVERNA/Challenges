@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-nav {
+    margin: 0;
+    width: 120%;
+    
+}
+
+.navegador {
+    background-color: #DBA8AC;
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    width:80%;
+    height: 15vh;
+
+}
+.menu {
+    background-color: #CC92C2;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 20%;
+    padding: 1%;  
+    font-family: 'Major Mono Display', monospace;
+}
+
+ a {
+    color: rgb(61, 52, 52);
+    text-decoration: none;
+    cursor: pointer;
+}
